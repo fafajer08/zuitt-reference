@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            max-width: 200px;
+            height: auto;
+        }
+        .profile2 {
+            text-align: left;
+
+        }
+        .team-member {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+        form {
+            margin: 20px 0;
+        }
+        label {
+            margin-right: 10px;
+        }
+        footer nav {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="profile">
+        <img src="./images/logo-design.jpg" alt="Company Logo">
+        <p>We are a leading company in providing exceptional products and services.</p>
+    </section>
+
+    <section>
+        <h2 class="meet_team">Meet the Team</h2>
+        <div class="team-member">
+            <img src="./images/team-member1.jpg" alt="Team Member 1">
+            <p>John Doe - CEO</p>
+        </div>
+        <div class="team-member">
+            <img src="./images/team-member2.jfif" alt="Team Member 2">
+            <p>Jane Smith - CTO</p>
+        </div>
+        
+    </section>
+
+    <section class="profile2">
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" required autocomplete="given-name"><br>
+
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" required autocomplete="family-name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="contact">Contact Number:</label><br>
+            <input type="tel" id="contact" name="contact" required><br>
+
+            <label for="service_type">Service Type:</label><br>
+            <select id="service_type" name="service_type" required>
+                <option value="consulting">Front-end Programming</option>
+                <option value="development">Back-end Programming</option>
+                <option value="design">Full-stack Programming</option>
+            </select><br>
+
+            <label>Preferred Contact</label><br>
+            <input type="checkbox" id="email_address" name="contact_method" value="email">
+            <label for="email_address">Email</label>
+            <br>
+
+            <input type="checkbox" id="contact_phone" name="contact_method" value="phone">
+            <label for="contact_phone">Phone</label>
+            <br>
+
+            <label for="basic">Package:</label><br>
+            <input type="radio" id="basic" name="package" value="basic">
+            <label for="basic">Basic</label>
+            <br>
+
+            <input type="radio" id="premium" name="package" value="premium">
+            <label for="premium">Premium</label>
+            <br>
+
+            <label for="notes">Message:</label><br>
+            <textarea name="notes" rows="5" id="notes"></textarea>
+            <br>
+
+            <button type="submit">Send Inquiry</button><br>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </footer>
+</body>
+</html>

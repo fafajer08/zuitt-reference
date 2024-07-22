@@ -1,0 +1,153 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+<<<<<<< HEAD
+  font-family: "IBM Plex Sans", sans-serif;
+
+=======
+  font-family: "Arsenal SC", sans-serif;
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+}
+
+nav {
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid gray;
+  list-style-type: none;
+}
+
+<<<<<<< HEAD
+nav .nav, nav .nav-logo {
+=======
+nav .nav,
+.nav-logo {
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+  margin: 0.5rem;
+  display: inline;
+}
+
+#intro {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+<<<<<<< HEAD
+  /* shorthand properties top,left,right,bottom*/
+  /* padding: 2rem 10% 3rem; */
+=======
+  /* shorthand property */
+  /* padding: 2rem 10% 3rem */
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+<<<<<<< HEAD
+#intro h2, #intro p {
+=======
+#intro h2,
+#intro p {
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+  margin-bottom: 1rem;
+}
+
+#intro button {
+  color: floralwhite;
+  font-weight: bold;
+<<<<<<< HEAD
+  background-color: deeppink;
+=======
+  background-color: pink;
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+#succeed-info {
+  padding: 2rem 10% 3rem;
+}
+
+#succeed-info h2 {
+  margin-bottom: 1rem;
+<<<<<<< HEAD
+  text-align: center;
+=======
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+}
+
+#succeed-info h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#succeed-info .card {
+  display: inline-block;
+  vertical-align: top;
+  min-height: 175px;
+  width: 30%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+<<<<<<< HEAD
+#pre-footer {
+  padding: 1rem;
+  background-color: #002540;
+  color: white;
+=======
+/* member 1 */
+#pre-footer {
+  padding: 1rem;
+  color: white;
+  background-color: #002540;
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+}
+
+#pre-footer div {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+<<<<<<< HEAD
+#pre-footer div * {
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+}
+
+footer {
+  padding: .7rem;
+}
+
+footer span {
+  margin-left: .5rem;
+  margin-right: .5rem;
+=======
+/* member 3 / */
+
+#pre-footer p,
+#pre-footer h3 {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+/* / member 4 / */
+footer {
+  padding: 0.7rem;
+}
+
+/* / member 5 */
+footer span {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+>>>>>>> e7ba5ae3d6450b7144ca051bd0276b6378726df4
+}

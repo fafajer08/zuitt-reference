@@ -1,0 +1,132 @@
+/* member 1 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  color: white;
+  padding: 10px;
+  width: calc(9 * 1rem); 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  border-color: transparent;
+  border-radius: 25px;
+  background-color: #c2195b; 
+}
+
+/* Member 2 */
+
+nav {
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.right-nav {
+  margin-left: auto;
+  float: right;
+}
+
+nav li {
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.nav, .nav-logo {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Member 3 */
+#logo {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#nav-button {
+  background-color: #c2195b;
+}
+
+#bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+
+/* Member 4 */
+.container {
+  text-align: right;
+  width: 40%;
+  position: relative;
+  left: 50%;
+}
+
+
+.title {
+  font-family: 'Zilla Slab', serif;
+  font-size: 2rem; 
+  font-weight: 600; 
+}
+
+.subtitle {
+  font-size: 1.25rem; 
+  font-weight: 400; 
+  width: 75%;
+  margin-left: auto;
+  margin-top: 10px; 
+}
+
+#apply-button {
+  margin-top: 20px; 
+  background-color: #c2195b;
+}
+
+/* Member 5 */
+
+#main {
+  padding-top: 20px; 
+  text-align: center;
+}
+
+.title-2 {
+  font-family: 'Zilla Slab', serif;
+  font-size: 2rem; 
+  font-weight: 600; 
+}
+
+.description {
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  font-weight: 400; 
+}
+
+footer {
+  margin-top: 20px; 
+  padding: 20px; 
+  text-align: center;
+}
+
+footer span {
+  margin-right: 10px; 
+  margin-left: 10px; 
+  font-weight: 600; 
+}

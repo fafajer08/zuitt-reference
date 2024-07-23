@@ -1,0 +1,140 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply Google Font Family for All Elements */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Google Font for Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+/* Nav Styles */
+nav {
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradient background */
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* Member 3 */
+/* Nav List Items */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.3s ease; /* Smooth background transition */
+}
+/* Landing Section */
+#landing {
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 50vh;
+  color: white;
+  padding-top: 2rem;
+}
+
+/* Member 4 */
+#landing h1 {
+  padding-top: 1rem;
+  font-size: 3rem;
+}
+
+#landing h3 {
+  margin: 1rem;
+}
+
+#landing button {
+  padding: 0.5rem;
+  background-color: #ff6347;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Landing Section H1 */
+#landing h1 {
+  padding-top: 1rem;
+  font-size: 3rem;
+}
+
+/* Landing Section H3 */
+#landing h3 {
+  margin: 1rem;
+}
+
+/* Landing Section Button */
+#landing button {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient background */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transform and shadow transition */
+}
+
+#landing button:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Hot Section */
+#hot {
+  text-align: center;
+}
+
+#hot h2 {
+  margin: 1rem 0;
+}
+
+#hot ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#hot ul li {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 3rem;
+  text-decoration: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth background and transform transition */
+}
+
+#hot ul li:hover {
+  background: rgba(0, 0, 0, 0.05); /* Hover effect */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+footer span {
+  display: block;
+  margin: 0.5rem 0;
+}
+

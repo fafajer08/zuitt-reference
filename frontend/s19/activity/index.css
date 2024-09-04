@@ -1,0 +1,121 @@
+#logo{
+  width: 48.63px;
+  left: 96.16px;
+  opacity: 0px;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  text-align: center;
+  color: #F2D2AE !important;
+
+}
+
+#navbar {
+  background-color: #765C3D !important;
+}
+
+#landing {
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.59),
+  rgba(0, 0, 0, 0.59)
+  ), 
+  url("./images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+
+#landing p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+}
+
+#landing a {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  padding: 12px 32px 12px 32px;
+  border-radius: 32px;
+  opacity: 0px;
+  background-color:#B59066;
+}
+
+#title {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+#gallery-title, #album1-title, #album2-title, #album3-title, #core-tools h4 {
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 48.76px;
+color: #765C3D;
+}
+
+#gallery-text, #album1-text, #album2-text, #album3-text {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.26px;
+color: #765C3D;
+}
+
+#album1, #album2, #album3 {
+background-color: #FFFFFF;
+box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+#toolsIcon {
+  width: 140px;
+  height: 130px;
+}
+
+#contact h2 {
+  font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+color: #765C3D;
+}
+
+#contact p {
+  font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+color: #765C3D;
+}
+
+#contact label {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #B59066;
+}
+
+#contact button {
+font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  padding: 12px 32px 12px 32px;
+  border-radius: 32px;
+  opacity: 0px;
+  background-color:#B59066;
+  
+}

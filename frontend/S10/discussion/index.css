@@ -1,0 +1,67 @@
+/* Universal Selector */
+* { 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+
+h1 {
+  color: cornflowerblue;
+}
+
+#zuitt-motto {
+  letter-spacing: 5px;
+}
+
+.offering-item {
+  text-transform: uppercase;
+}
+
+/* Adjacent Sibling Selector */
+
+h3 + img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+/* Descendant Selector */
+#bootcamp-learning-list li {
+  color: orange;
+}
+
+/* General Siblings Selector */
+
+a {
+  text-decoration: none;
+}
+
+.modules {
+  list-style-position: 3px;
+}
+
+body {
+  background-color: skyblue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: floralwhite;
+}
+
+div {
+  float: right;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}

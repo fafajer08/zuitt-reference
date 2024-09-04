@@ -1,0 +1,52 @@
+// Member 3
+
+// 5.
+db.rooms.findOne({ name: "double" })
+
+// 6. 
+db.rooms.updateOne(
+    { name: "queen" }, 
+    { $set: { rooms_available: 0 } }
+)
+
+// 7. 
+
+db.rooms.replaceOne(
+    { name: "queen" },
+    {
+        name: "queen",
+        accommodates: 4,
+        price: 4500,
+        description: "An upgraded room with a queen-sized bed and luxurious amenities",
+        rooms_available: 10,
+        isAvailable: true
+    }
+)
+
+// 8. 
+async function findOneAndUpdateFunc(db) {
+  await (
+      db.rooms.findOneAndUpdate(
+          { name: "family" },
+          { $set: { isAvailable: false } }
+      )
+  )
+  return db
+}
+
+async function deleteOneFunc(db) {
+  await (
+      db.rooms.deleteOne({ name: "executive suites" })
+  )
+}
+
+// Mongosh Command:
+
+db.rooms.findOneAndUpdate(
+    { name: "family" },
+    { $set: { isAvailable: false } }
+)
+
+db.rooms.deleteOne({ name: "executive suites" })
+
+
